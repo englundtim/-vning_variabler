@@ -21,5 +21,14 @@ public class App {
         System.out.println("resten av 10/3 = "+rest1);
         System.out.println("resten av 9%3 = "+rest2);
 
+        double decimal_tal1 = 5.0;
+        double decimal_tal2 = 23.41;
+
+        double dec_summa_add = decimal_tal1+decimal_tal2;
+        double dec_summa_sub = decimal_tal1-decimal_tal2;
+
+        System.out.println("Summan av "+decimal_tal1+"och "+decimal_tal2+" = "+dec_summa_add);
+        System.out.println("Differensen mellan "+decimal_tal1+"och "+decimal_tal2+" = "+dec_summa_sub);
+
     }
 }
