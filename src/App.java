@@ -15,5 +15,11 @@ public class App {
         System.out.println("produkten av tal1 och tal2 = "+produkt);
         System.out.println("Kvoten mellan tal1 och tal2 = "+kvot);
 
+        int rest1 = 10%3;
+        int rest2 = 9%3;
+
+        System.out.println("resten av 10/3 = "+rest1);
+        System.out.println("resten av 9%3 = "+rest2);
+
     }
 }
